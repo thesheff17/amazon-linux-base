@@ -22,7 +22,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-# used to bootstrap amazon linux with python3 
+# used to bootstrap amazon linux with python3
 
 import json
 import os
@@ -30,7 +30,7 @@ import subprocess as sb
 
 if __name__ == "__main__":
 
-    print ("start.py started...")
+    print("start.py started...")
 
     command1 = "yum update -y"
     command2 = "yum upgrade -y"
@@ -42,4 +42,5 @@ if __name__ == "__main__":
     sb.call(command3, shell=True)
     sb.call(command4, shell=True)
 
+    print("here is a change")
     print("start.py completed")
