@@ -42,5 +42,4 @@ if __name__ == "__main__":
     sb.call(command3, shell=True)
     sb.call(command4, shell=True)
 
-    print("here is a change")
     print("start.py completed")
